@@ -1,0 +1,421 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Nobek &mdash; </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords"
+		content="renta, casas, departamentos, comprar casas, vender" />
+	<meta name="Nobek" content="Nobek.co" />
+
+	<script src="https://cdn.jsdelivr.net/npm/@sendgrid/mail@7.4.6/index.min.js"></script>
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+
+
+
+		<!-- <div class="page-inner"> -->
+
+
+		<div class="gtco-container" style="background-image: url(images/img_5.jpg); background-repeat: no-repeat; background-size: cover;">
+			<div class="row" id="overlay_refactor">
+				<div class="col-md-7 col-md-offset-0 text-center">
+						<div class=" animate-box" data-animate-effect="fadeInUp">
+							<div style="text-align: left;" id="gtco-logo"><a href="index.html"><img src="images/logo2.png" alt="Nobek"   width="300" height="60" style=margin-top:10px ></a></div>
+							<h1 style="padding-top:60px; margin: 10px;color: white; font-size: 2em; margin-bottom: 50px;" >¡VENDE TU PROPIEDAD 2 VECES MÁS RÁPIDO Y SIN COMPLICACIONES!</h1>
+							<hea style="margin-top: 20px !important;">Puede ser tu casa, departamento, terrenos, bodega, local, oficina o quinta.</hea>
+							<p style="margin-bottom: 30px;"></p>
+							<par>En Nóbek queremos respaldarte con asesores de gran trayectoria y certificados, te
+								ayudaremos a rentar tu propiedad 2 veces más rápido que otros brokers y de una forma
+								integral para que no tengas que buscar por varios lados. Todo en un solo lugar para lograr
+								un mejor rendimiento juntos. </par>
+							<form>
+								<p style="padding-top:30px;">
+									<a>4.9</a>
+								  <label for="radio1">★</label>
+								  <label for="radio2">★</label>
+								  <label for="radio3">★</label>
+								  <label for="radio4">★</label>
+								  <label for="radio5">★</label>
+								  <a href="https://g.page/r/CQSsjtv28AcEEAE" style="color:#598cff">comentario de Google</a>
+								</p>
+							  </form>
+						</div>
+						</div>
+
+				<div class="hola col-md-5" style="padding-right: 0px;background-color: rgba(0, 0, 0, 0.6)!important;padding: 30px;" id="mandarForms">
+					<div class="gtco-container overlay2  animate-box"data-animate-effect="fadeInRight" style="width:100%;">
+						<div class="mantente" style="text-align: center; font-size:25px!important;">¡Programa una asesoría! (81) 13596801 <span style="font-size: 20px;"><p>¡Resuelve tus dudas hoy !</p></span></div>
+						<div class="form-wrap">
+							<div class="tab">
+
+								<div class="tab-content" style="padding-bottom: 10px;">
+									<div class="tab-content-inner active" data-content="signup">
+										<h2>Rellena el formulario y en menos de 24 hrs un asesor certificado te contactará para conocer más de tus necesidades</h2>
+										<h5>Déjanos tus datos y en breve nos comunicamos:</h5>
+										<form onsubmit="return sendForm()">
+											<div class="row form-group">
+												<div class="col-md-12">
+													<input type="text" name="nombre" id="nombre" class="form-control"
+														placeholder="Nombre *" required>
+												</div>
+											</div>
+											<div class="row form-group">
+												<div class="col-md-12">
+													<input type="text" name="correo" id="correo" class="form-control"
+														placeholder="Correo *" required>
+												</div>
+											</div>
+											<div class="row form-group">
+												<div class="col-md-12">
+													<input type="text" name="telefono" id="telefono" class="form-control"
+														placeholder="Teléfono *" required>
+												</div>
+											</div>
+
+											<div class="row form-group" >
+											   <div class="col-md-12">
+													<select id="accion" name="accion" class="form-control form-select-lg col-md-12" aria-label=".form-select-lg example">
+														<option selected style="color:#7d7676e0;">¿Qué deseas hacer?</option>
+														<option value="1">Vender mi propiedad</option>
+														<option value="2">Rentar mi propiedad</option>
+														<option value="3">Comprar alguna propiedad</option>
+														<option value="4">Asesoría Inmobiliaria</option>
+													</select>
+											   </div>
+											</div>
+
+											<div class="row form-group">
+												<div class="col-md-12">
+													<textarea name="mensaje" id="mensaje" cols="30" rows="5"
+														class="form-control"
+														placeholder="¿Tienes alguna otra duda o comentario? Escríbenos..."></textarea>
+												</div>
+											</div>
+
+											<div class="row form-group">
+												<div class="col-md-12">
+													<input type="submit"  class="btn btn-primary btn-block" style="width: 100%;"
+														value="¡Quiero Asesoría Gratuita!">
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="gtco-counter" class="gtco-section" style="padding-block-end: 1.7em;">
+			<div class="gtco-container">
+				<div class="row">
+					<p style="color:white !important; font-size: 1.7em; margin:2em">Nuestros Clientes y Números hablan por si solos…</p>
+					<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+						<div class="feature-center">
+							<span class="counter2">+</span><span class="counter js-counter" data-from="0" data-to="1400" data-speed="2000"
+								data-refresh-interval="50">1</span>
+							<span class="counter-label">Propiedades Vendidas</span>
+
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+						<div class="feature-center">
+							<span class="counter2">+</span><span class="counter js-counter" data-from="0" data-to="10" data-speed="2000"
+								data-refresh-interval="50">1</span>
+							<span class="counter-label">Años de Experiencia</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+						<div class="feature-center">
+							<span class="counter2">+</span><span class="counter js-counter" data-from="0" data-to="1000" data-speed="2000"
+								data-refresh-interval="50">1</span>
+							<span class="counter-label">Clientes nos Recomiendan</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+						<div class="feature-center">
+							<span class="counter2">+</span><span class="counter js-counter" data-from="0" data-to="800" data-speed="2000"
+								data-refresh-interval="50">1</span>
+							<span class="counter-label">Propiedades Rentadas</span>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>   
+
+		<div id="gtco-features">
+			<div class="gtco-container">
+				<div class="row" style="padding-top: 13%;padding-bottom: 13%;">
+					<div class="col-md-3 col-xs-12">
+						<div id="responSubt" style="border-right: thick solid #DF351B;" class="feature-center animate-box"
+							data-animate-effect="fadeIn">
+							<p style="border-bottom-width: 10px;padding-top: 20px; color:aliceblue"> .</p>
+							<h3 style="line-height: 150%;">Al contratar la asesoría inmobiliaria de <span
+									style="color:#DF351B;  font-weight: bolder; ">NÓBEK</span> tú obtienes</h3>
+							<p style="border-bottom-width: 20px;padding-top: 30px; color:aliceblue"> .</p>
+						</div>
+					</div>
+
+					<div id="carac" class="col-md-3 col-xs-12">
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="feature-center animate-box" data-animate-effect="fadeIn">
+									<i class="icon-business_center"  style="font-size: 2.5em;"></i>
+									<h3 style="padding-bottom: 110px; height: 245px;">Asesores certificados en comercialización de bienes inmuebles
+									</h3>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="feature-center animate-box" data-animate-effect="fadeIn">
+									<i class="icon-money"  style="font-size: 2.5em;"></i>
+									<h3>Estrategia integral de ventas</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="carac" class="col-md-3 col-xs-12">
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="feature-center animate-box" data-animate-effect="fadeIn">
+									<i class="icon-show_chart"  style="font-size: 2.5em;"></i>
+									<h3 style="padding-bottom: 120px; height: 245px;">El mejor trato para tu propiedad y mayor rendimiento</h3>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="feature-center animate-box" data-animate-effect="fadeIn">
+									<i class="icon-chat_bubble"  style="font-size: 2.5em;"></i>
+									<h3>Seguimiento continuo durante todo el proceso</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-12">
+						<div id="carac" class="row">
+							<div class="col-xs-12 ">
+								<div class="feature-center animate-box" data-animate-effect="fadeIn">
+									<i class="icon-book"  style="font-size: 2.5em;"></i>
+									<h3 style="padding-bottom: 120px; height: 245px;">Asesoría legal en caso de ser requerirdo</h3>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="feature-center animate-box" data-animate-effect="fadeIn">
+									<i class="icon-clock-o"  style="font-size: 2.5em;"></i>
+									<h3>Ventas y Rentas en el menor tiempo</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-xs-12 form-group" style="align-content: center; align-items: center; justify-content: center !important; border: 80px !important;">
+						<a href="#mandarForms"><input type="submit" id="arreglarBoton" class="btn btn-primary" style="margin-top: 8em!important;"
+						value="¡Quiero Asesoría Gratuita!" ></a>
+				   </div>
+				</div>
+			</div>
+		</div>
+
+		<div class=" gtco-cover" style="background-image:url(images/Foto.jpg)" data-stellar-background-ratio="0.5">
+			<div class="overlay3"></div>
+			<div class="gtco-container text-center">
+
+				<div class="display-t">
+					<div class="display-tc">
+						<p style="padding-top:10%; margin-left: 38px;margin-right: 38px;" class="subtema">No importa donde esté tu casa, oficina, local o departamento, nosotros te
+							ayudamos a venderla 2 veces más rápido y con el mejor rendimiento posible.</p>
+							<div class="form-group" style="align-content: center; align-items: center; justify-content: center !important; border: 80px !important;">
+								<a href="#mandarForms"><input id="arreglarBoton" type="submit"  class="btn btn-primary" style="margin-top: 5%; "
+								value="¡Quiero Asesoría Gratuita!"></a>
+						   </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="gtco-subscribe">
+			<div class="gtco-container">
+				<div class="row animate-box">
+					<h3 style="margin-bottom: 80px; padding-top: 20px;" class="contact">¡Agenda tu primer asesoría inmobiliaria sin costo!</h3>
+					<div id="info-pie" class="col-md-12 col-xs-12">
+						<form  class="form-inline">
+							<div class="col-md-6 col-xs-12">
+								<div style="text-align: center; margin-bottom: 1.5em;" id="gtco-logo"><a href="index.html"><img src="images/logo.png" alt="Nobek"   width="250" height="50" style=margin-top:10px ></a></div>
+								<div class="form-group">
+									<footer id="gtco-footer" role="contentinfo">
+										<div class="gtco-widget">
+											<ul class="izq gtco-quick-contact">
+												<li><a style="text-align: left; color:rgba(37, 37, 37, 0.801);"><span style="font-weight:bolder; font-size: 18px;">Nuestra Dirección:</span><span style="display:block"> </span>
+													Torre Micrópolis , Ave. Eugenio Garza Sada 3820 <span style="display:block"> </span> Int. 801, No. piso 8, Monterrey, N.L.</a></li>
+													<li><a href="https://wa.link/8crdbq" style="color:rgb(110, 110, 110)">*Sólo con previa cita</a></li>
+											</ul>
+										</div>
+										<p style="padding-top: 10px;"> </p>
+										<div class="gtco-widget">
+											<ul id="alinearIcons" class="izq gtco-quick-contact">
+												<li><a style="text-align: left" href="#8113568010"><i
+															class="icon-phone"></i> 81 1359 6801</a></li>
+												<li><a href="https://wa.link/8crdbq"><i class="icon-whatsapp "></i>+52
+														8116281472</a></li>
+												<li><a href="#"><i class="icon-mail_outline"></i> hola@nobek.com.mx</a>
+												</li>
+											</ul>
+										</div>
+											<p style="padding-top: 10px;"> </p>
+
+									</footer>
+
+								</div>
+							</div>
+							<div class="col-md-6 col-xs-12">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14388.50664561569!2d-100.2823168!3d25.6339214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x407f0f6db8eac04!2zTsOTQkVL!5e0!3m2!1ses!2smx!4v1627436637135!5m2!1ses!2smx"
+									width="758" height="460" style="border:0;width: 100%; padding-right: 5px;" allowfullscreen=""
+									loading="lazy"></iframe>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    
+		<footer  style=" color: aliceblue !important;background-color: #DF351B; ">
+				<div class=" row" style="padding-top: 2em; margin-left:0!important;margin-right:0!important;">
+						<div class="col-md-3 col-sm-12 col-xs-12" style="justify-content: center; align-items: center;display: inline-flex;">
+								<ul style="color:aliceblue" class="gtco-quick-contact">
+									<li style="color:#DF351B"><a style="color:aliceblue" href="https://www.facebook.com/NOBEKmx"><i
+												class="icon-facebook"></i> NOBEKmx </a></li>
+									<li style="color:#DF351B"><a style="color:aliceblue" href="https://www.instagram.com/nobek_/?hl=es-la"><i
+												class="icon-instagram"></i> NOBEK_</a></li>
+								</ul>
+						</div>
+					<div class="col-md-6 col-sm-12 col-xs-12" style="justify-content: right; align-items: right; ">
+						<a href="https://www.nobek.com.mx/aviso-de-privacidad"><small style="font-size: 1em; color: aliceblue;">Aviso de Privacidad</small></a>
+					</div>
+					<div class="col-md-3 col-sm-12 col-xs-11" style="background-color: #DF351B; ">
+						<small  id="copyright" style=" font-size: 1em; background-color: #DF351B;"> &copy; Nóbek All Rights Reserved.</small>
+					</div>
+					
+				</div>
+		</footer>
+
+	
+	<!-- </div> -->
+
+	<script>
+		document.getElementById("copyright").innerHTML = ` &copy;  ${new Date().getFullYear()} All Rights Reserved.`;
+		
+
+		const sendForm = (e) => {
+			const data = new FormData();
+			data.append("Nombre", document.getElementById("nombre").value);
+			data.append("Correo", document.getElementById("correo").value);
+			data.append("Teléfono", document.getElementById("telefono").value);
+			const selectElement =  document.getElementById("accion");
+			data.append("El cliente desea:", selectElement.options[selectElement.selectedIndex].text);
+			data.append("Mensaje", document.getElementById("mensaje").value);
+			fetch('https://formspree.io/f/xzbywnlj', {
+				method: 'POST',
+				body: data
+			});
+			alert("Su mensaje ha sido enviado");
+			return false;
+		}
+	</script>
+
+
+
+	<div class="gototop js-top" >
+		<a href="https://wa.link/8crdbq" style="background-color: rgba(0, 0, 0, 0)!important;"><img src="images/wha.png" style="color: rgb(60, 231, 60); width:50px; height: 50;"></img></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- Datepicker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
