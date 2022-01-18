@@ -1,3 +1,3 @@
 # Nobek
 
-versiòn actualizada
+versión actualizada
