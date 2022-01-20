@@ -1,3 +1,3 @@
 # Nobek
 
- *versión actualizada 2022*
+ **versión actualizada 2022**
