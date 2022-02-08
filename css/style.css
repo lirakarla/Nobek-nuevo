@@ -1859,8 +1859,6 @@ form label {
   opacity: 1;
   visibility: visible;
   bottom: 0px;
-  border: 2px solid #0adec0 !important;
-  background: #0adec0 !important;
 }
 .fh5co-card-item:hover figure .overlay, .fh5co-card-item:focus figure .overlay {
   opacity: 1;
